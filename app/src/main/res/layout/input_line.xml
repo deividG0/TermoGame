@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/line"
+    android:padding="2dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <include
+        android:id="@+id/tf1"
+        layout="@layout/letter_field" />
+
+    <include
+        android:id="@+id/tf2"
+        layout="@layout/letter_field" />
+
+    <include
+        android:id="@+id/tf3"
+        layout="@layout/letter_field" />
+
+    <include
+        android:id="@+id/tf4"
+        layout="@layout/letter_field" />
+
+    <include
+        android:id="@+id/tf5"
+        layout="@layout/letter_field" />
+
+</LinearLayout>
